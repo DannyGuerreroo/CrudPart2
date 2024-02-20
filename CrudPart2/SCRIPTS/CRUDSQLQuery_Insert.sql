@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE InsertCustomerAndOrder_Lastname
+CREATE OR ALTER PROCEDURE InsertCustomerAndOrder_Guerrero
 (
     -- Customer parameters
     @FirstName NVARCHAR(50),

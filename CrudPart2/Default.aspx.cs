@@ -25,7 +25,7 @@ namespace CrudPart2
         { // Fills the drop-down of products
             using (SqlConnection conn = new SqlConnection(db.getConnection()))
             {
-                using (SqlCommand cmd = new SqlCommand("ProductList_Lastname", conn))
+                using (SqlCommand cmd = new SqlCommand("ProductList_Guerrero", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     conn.Open();
@@ -45,7 +45,7 @@ namespace CrudPart2
 
             using (SqlConnection conn = new SqlConnection(db.getConnection()))
             {
-                using (SqlCommand cmd = new SqlCommand("InsertCustomerAndOrder_Lastname", conn))
+                using (SqlCommand cmd = new SqlCommand("InsertCustomerAndOrder_Guerrero", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@FirstName", txtFirstName.Text);

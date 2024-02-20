@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE ProductList_Lastname
+CREATE OR ALTER PROCEDURE ProductList_Guerrero
 AS
 BEGIN
     SELECT Id, ProductName, UnitPrice, Package

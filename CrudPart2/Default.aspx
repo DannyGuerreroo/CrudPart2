@@ -9,8 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Firstname: <asp:TextBox ID="txtFirstName" runat="server" Text="Your_Firstname"/>
-            Lastname: <asp:TextBox ID="txtLastName" runat="server" Text="Your_lastname"/>
+            Firstname: <asp:TextBox ID="txtFirstName" runat="server" Text="Danny"/>
+            Lastname: <asp:TextBox ID="txtLastName" runat="server" Text="Guerrero"/>
             <br />
             City: <asp:TextBox ID="txtCity" runat="server" Text="Centralia"/>
             Country: <asp:TextBox ID="txtCountry" runat="server" Text="USA"/>

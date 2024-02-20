@@ -1,4 +1,4 @@
-CREATE OR ALTER PROCEDURE NewCustomerSummary_Lastname
+CREATE OR ALTER PROCEDURE NewCustomerSummary_Guerrero
 AS
 BEGIN
     SELECT TOP 10

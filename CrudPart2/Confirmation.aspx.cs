@@ -34,7 +34,7 @@ namespace CrudPart2
         { // Shows the 10 most recent orders
             using (SqlConnection conn = new SqlConnection(db.getConnection()))
             {
-                using (SqlCommand cmd = new SqlCommand("NewCustomerSummary_Lastname", conn))
+                using (SqlCommand cmd = new SqlCommand("NewCustomerSummary_Guerrero", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     conn.Open();
